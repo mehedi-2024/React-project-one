@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "title": "iPhone 15 Pro Max",
+    "image": "https://www.mobiledokan.com/media/apple-iphone-15-pro-max-natural-titanium-official-image.webp",
+    "category": "Mobile",
+    "price": 1599,
+    "description": "Apple's latest flagship phone with A17 Bionic chip and titanium body.",
+    "Specification": ["6.7-inch OLED Display", "A17 Bionic Chip", "512GB Storage", "48MP Camera"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 2,
+    "title": "Samsung Galaxy S24 Ultra",
+    "image": "https://www.mobiledokan.co/wp-content/uploads/2022/12/Samsung-Galaxy-S24-Ultra-Titanium-Yellow.webp",
+    "category": "Mobile",
+    "price": 1499,
+    "description": "Samsung's top-tier smartphone with S Pen and 200MP camera.",
+    "Specification": ["6.8-inch AMOLED", "Snapdragon 8 Gen 3", "1TB Storage", "200MP Camera"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "title": "Google Pixel 8 Pro",
+    "image": "https://www.mobiledokan.com/media/google-pixel-8-pro-obsidian-official-image.webp",
+    "category": "Mobile",
+    "price": 1399,
+    "description": "Google's AI-powered smartphone with Tensor G3 chipset.",
+    "Specification": ["6.7-inch LTPO OLED", "Tensor G3", "512GB Storage", "50MP Camera"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "title": "OnePlus 12 Pro",
+    "image": "https://www.mobiledokan.com/media/oneplus-12-flowy-emerald-official-image_2.webp",
+    "category": "Mobile",
+    "price": 1299,
+    "description": "OnePlus' premium smartphone with 120Hz AMOLED display.",
+    "Specification": ["6.82-inch AMOLED", "Snapdragon 8 Gen 3", "256GB Storage", "64MP Camera"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "title": "Sony Xperia 1 V",
+    "image": "https://www.mobiledokan.com/media/1713695911xoeSY.webp",
+    "category": "Mobile",
+    "price": 1599,
+    "description": "Sony's high-end smartphone with professional-grade camera.",
+    "Specification": ["4K OLED Display", "Snapdragon 8 Gen 2", "512GB Storage", "48MP Camera"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 6,
+    "title": "Asus ROG Phone 8",
+    "image": "https://www.mobiledokan.com/media/asus-rog-phone-8-rebel-grey-official-image.webp",
+    "category": "Mobile",
+    "price": 1299,
+    "description": "Gaming-focused smartphone with high refresh rate display.",
+    "Specification": ["6.78-inch AMOLED", "Snapdragon 8 Gen 3", "512GB Storage", "50MP Camera"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 7,
+    "title": "Xiaomi 14 Ultra",
+    "image": "https://www.mobiledokan.co/wp-content/uploads/2023/06/Xiaomi-14-Ultra-Blue.webp",
+    "category": "Mobile",
+    "price": 1399,
+    "description": "Xiaomi's ultra-premium smartphone with Leica cameras.",
+    "Specification": ["6.81-inch AMOLED", "Snapdragon 8 Gen 3", "1TB Storage", "200MP Camera"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 8,
+    "title": "Huawei Mate 50 Pro",
+    "image": "https://www.mobiledokan.com/media/huawei-mate-50-pro-official-image.webp",
+    "category": "Mobile",
+    "price": 1299,
+    "description": "Huawei’s premium phone with impressive battery life.",
+    "Specification": ["6.74-inch OLED", "Kirin 9000S", "512GB Storage", "50MP Camera"],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "id": 9,
+    "title": "Vivo X90 Pro+",
+    "image": "https://www.mobiledokan.com/media/1713851383dyVLY.webp",
+    "category": "Mobile",
+    "price": 1299,
+    "description": "Vivo's best camera smartphone with Zeiss optics.",
+    "Specification": ["6.78-inch AMOLED", "Snapdragon 8 Gen 2", "512GB Storage", "50MP Camera"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 10,
+    "title": "MacBook Pro M3 Max",
+    "image": "https://www.custommacbd.com/cdn/shop/files/mbp14-spacegray-2023-Custom-Mac-BD_6b7096ac-53cb-4e44-8b06-beddcf26e892_720x.jpg?v=1700114404",
+    "category": "Laptop",
+    "price": 3499,
+    "description": "Apple’s most powerful MacBook Pro with M3 Max chip.",
+    "Specification": ["16-inch Liquid Retina", "M3 Max", "64GB RAM", "2TB SSD"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 11,
+    "title": "Dell XPS 17",
+    "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-17-9730/media-gallery/notebook-xps-17-9730-t-gray-gallery-2.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=659&qlt=100,1&resMode=sharp2&size=659,402&chrss=full",
+    "category": "Laptop",
+    "price": 2799,
+    "description": "Dell's premium ultrabook with high-resolution display.",
+    "Specification": ["17-inch 4K Display", "Intel i9 13th Gen", "64GB RAM", "2TB SSD"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 12,
+    "title": "Razer Blade 18",
+    "image": "https://m.media-amazon.com/images/I/71ZxR9paGGL.jpg",
+    "category": "Laptop",
+    "price": 3899,
+    "description": "Ultimate gaming laptop with RTX 4090.",
+    "Specification": ["18-inch QHD", "Intel i9", "64GB RAM", "2TB SSD", "RTX 4090"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 13,
+    "title": "ASUS ROG Zephyrus G16",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBmbzxSL2G06uhQaa4hJhIiulPQspuFfN1EQ&s",
+    "category": "Laptop",
+    "price": 2699,
+    "description": "High-performance gaming laptop with AMD Ryzen 9.",
+    "Specification": ["16-inch 165Hz", "AMD Ryzen 9", "32GB RAM", "1TB SSD"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 14,
+    "title": "Sony WH-1000XM5",
+    "image": "https://adminapi.applegadgetsbd.com/storage/media/large/5318-55349.jpg",
+    "category": "Accessories",
+    "price": 399,
+    "description": "Industry-leading noise-canceling headphones.",
+    "Specification": ["40mm Drivers", "30-hour battery", "Bluetooth 5.2"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 15,
+    "title": "Apple AirPods Max",
+    "image": "https://adminapi.applegadgetsbd.com/storage/media/large/2299-79250.jpg",
+    "category": "Accessories",
+    "price": 549,
+    "description": "Apple's premium over-ear headphones.",
+    "Specification": ["H1 Chip", "Active Noise Cancellation", "20-hour battery"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 16,
+    "title": "iQOO 12 Pro",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCJ5cdz4ozkvlhxlnL1VgDtkeCrfMmd8MvHg&s",
+    "category": "Mobile",
+    "price": 999,
+    "description": "iQOO’s flagship gaming smartphone with Snapdragon 8 Gen 3.",
+    "Specification": ["6.78-inch AMOLED", "Snapdragon 8 Gen 3", "512GB Storage", "50MP Camera"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 17,
+    "title": "iQOO 11 Ultra",
+    "image": "https://images.fonearena.com/blog/wp-content/uploads/2022/12/iQOO-11-5G.jpg",
+    "category": "Mobile",
+    "price": 899,
+    "description": "High-performance smartphone with fast refresh rate display.",
+    "Specification": ["6.78-inch AMOLED", "Snapdragon 8 Gen 2", "256GB Storage", "50MP Camera"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 18,
+    "title": "iQOO Neo 9 Pro",
+    "image": "https://kryinternational.com/wp-content/uploads/2024/04/iQOO-Neo-9-Pro.jpg",
+    "category": "Mobile",
+    "price": 799,
+    "description": "Affordable flagship killer with advanced gaming features.",
+    "Specification": ["6.7-inch OLED", "Dimensity 9200+", "256GB Storage", "50MP Camera"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 19,
+    "title": "Lenovo ThinkPad X1 Carbon Gen 11",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlMOZv3DTvNlTv4I9VUixf56kJXyn0figvkQ&s",
+    "category": "Laptop",
+    "price": 2199,
+    "description": "A business laptop with ultra-portability and long battery life.",
+    "Specification": ["14-inch 4K Display", "Intel i7 13th Gen", "16GB RAM", "1TB SSD"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 20,
+    "title": "HP Spectre x360 14",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9LYwyoHWn8JYi6qUSfLq99yDN5dl3LC1oXw&s",
+    "category": "Laptop",
+    "price": 1799,
+    "description": "A premium convertible laptop with a 3:2 OLED display.",
+    "Specification": ["13.5-inch OLED Touchscreen", "Intel i7 12th Gen", "16GB RAM", "512GB SSD"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 21,
+    "title": "Microsoft Surface Laptop 5",
+    "image": "https://images-cdn.ubuy.co.in/644cfdab42de8661f655f08e-microsoft-surface-laptop-5-2022-15.jpg",
+    "category": "Laptop",
+    "price": 1799,
+    "description": "A sleek laptop with great performance and long battery life.",
+    "Specification": ["13.5-inch PixelSense Display", "Intel i7 12th Gen", "16GB RAM", "512GB SSD"],
+    "availability": true,
+    "rating": 4.6
+  }
+]

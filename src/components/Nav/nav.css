@@ -1,0 +1,7 @@
+
+#nav a.active{
+    background: transparent;
+    text-decoration: underline;
+    color: currentColor;
+    font-weight: bold;
+}
