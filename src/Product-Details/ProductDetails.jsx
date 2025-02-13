@@ -1,25 +1,27 @@
 
 import React, { useContext, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { Data } from '../App'
+import { CartContext, Data, TotalMoney, WishlistContext } from '../App'
 import { IoCartOutline } from "react-icons/io5";
 import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { MdOutlineFavorite } from "react-icons/md";
+import { toast } from 'react-toastify';
 
 const ProductDetails = () => {
+  const cartItems = useContext(CartContext)
+  const wishlistItems = useContext(WishlistContext)
   const data = useContext(Data)
   const id = useParams()
   const currentData = data[id.id - 1]
-  const [favorite, setFavorite] = useState(<MdOutlineFavoriteBorder size={25}/>)
-  const [isFavorite, setIsFavorite] = useState(false)
+  const totalMoney = useContext(TotalMoney)
+
   function addToFavorite(params) {
-    if (isFavorite) {
-      setFavorite(<MdOutlineFavoriteBorder size={25}/>)
-      setIsFavorite(false)
-    } 
-    else {
-      setFavorite(<MdOutlineFavorite size={25} />)
-      setIsFavorite(true)
+
+    if (wishlistItems[0].includes(id.id)) {
+      toast.warn('This item already has added in favorite!')
+    } else {
+      wishlistItems[1]([...wishlistItems[0], id.id])
+      toast.success('Add successfully!')
     }
   }
   return (
@@ -27,7 +29,7 @@ const ProductDetails = () => {
       <h1 className='text-3xl font-bold text-white text-center'>Product Details</h1>
       <p className="text-center text-white w-[650px] mt-4 mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum in vitae ipsa dignissimos ipsam a doloribus aliquam. Tempore dicta nobis recusandae </p>
 
-      <div className="w-[800px] bg-white p-5 rounded-2xl absolute -bottom-[250px] left-[50%] -translate-x-[50%] flex gap-6 shadow-lg">
+      <div className="w-[800px] bg-white p-5 rounded-2xl absolute -bottom-[300px] left-[50%] -translate-x-[50%] flex gap-6 shadow-lg">
         <img src={currentData.image} className='w-80 rounded-xl' alt="" />
 
         <div className='text-black grid gap-3'>
@@ -58,10 +60,18 @@ const ProductDetails = () => {
             </div>
           </div>
           <div className="flex gap-5 items-center">
-            <button className='flex items-center gap-2 text-sm font-bold text-white px-4 py-2 rounded-3xl bg-purple-500 border-2 border-purple-500 hover:bg-white hover:text-purple-500'>Add to Cart <IoCartOutline size={20} /></button>
+            <button onClick={() => {
+              if (cartItems[0].includes(id.id)) {
+                toast.warn('This item already has added!')
+              } else {
+                cartItems[1]([...cartItems[0], id.id])
+                toast.success('Add successfully!')
+                totalMoney[1](totalMoney[0] + currentData.price)
+              }
+            }} className='flex items-center gap-2 text-sm font-bold text-white px-4 py-2 rounded-3xl bg-purple-500 border-2 border-purple-500 hover:bg-white hover:text-purple-500'>Add to Cart <IoCartOutline size={20} /></button>
 
             <button onClick={addToFavorite} className="btn btn-circle">
-              {favorite}
+              <MdOutlineFavoriteBorder size={25} />
             </button>
           </div>
 

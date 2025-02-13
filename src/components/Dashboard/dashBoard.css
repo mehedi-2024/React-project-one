@@ -1,0 +1,11 @@
+
+#dashBoard a{
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 4px 16px;
+    font-weight: bold;
+}
+#dashBoard .active{
+    color: rgba(169, 16, 225, 0.854);
+    background: white;
+}

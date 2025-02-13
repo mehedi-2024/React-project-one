@@ -1,5 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+
+
 import './index.css'
 import App from './App.jsx'
 import {
@@ -9,6 +11,8 @@ import {
 import Home from './components/Home/Home.jsx';
 import ProductDetails from './Product-Details/ProductDetails.jsx';
 import Dashboard from './components/Dashboard/Dashboard.jsx';
+import Cart from './components/Dashboard/Cart.jsx';
+import Wishlist from './components/Dashboard/Wishlist.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,7 +30,17 @@ const router = createBrowserRouter([
       },
       {
         path: '/dashboard',
-        element: <Dashboard />
+        element: <Dashboard />,
+        children: [
+          {
+            path: '/dashboard/cart',
+            element: <Cart />
+          },
+          {
+            path: '/dashboard/wishlist',
+            element: <Wishlist />
+          }
+        ]
       }
     ]
   }
